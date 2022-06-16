@@ -4,12 +4,12 @@ export function taskFirst() {
 }
 
 export function getLast() {
-    return ' is okey';
+    return 'is okey';
 }
 
 export function taskNext() {
     let combination = 'But sometimes let';
-    combination += getLast();
+   let x = combination += getLast();
 
-    return combination;
+    return x;
 }
